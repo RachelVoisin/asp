@@ -1,0 +1,28 @@
+﻿@font-face {
+    font-family: canoodle;
+    src: url('fonts/DK Canoodle.otf');
+}
+
+@font-face {
+    font-family: sansation;
+    src: url(fonts/Sansation_Regular.ttf);
+}
+
+@font-face {
+    font-family: sansation;
+    src: url(fonts/Sansation_Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: sansation;
+    src: url(fonts/Sansation_Italic.ttf);
+    font-style: italic;
+}
+
+* {
+    font-family: sansation;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}

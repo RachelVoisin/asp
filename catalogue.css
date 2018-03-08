@@ -1,0 +1,72 @@
+﻿body {
+}
+
+#EventButton {
+    display: none;
+}
+
+form {
+    background-color: #FFCCCC;
+    background-color: rgba(255, 205, 218, 0.5);
+    border-radius: 1%;
+    width: 100%;
+}
+
+table {
+    width: 95%;
+    margin-left: 2.5%;
+    padding-top: 15px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+    table td {
+        border: 1px solid rgb(150, 150, 150);
+        padding: 20px 0px;
+    }
+
+    table tr:first-child td {
+        border-top: 0;
+    }
+
+    table tr:last-child td {
+        border-bottom: 0;
+    }
+
+    table tr td {
+        border-left: 0;
+        border-right: 0;
+    }
+
+.description {
+    display: block;
+    font-weight: normal;
+    padding: 10px 20px;
+}
+
+.btnAdd {
+    padding: 5px 13px;
+    border-radius: 6%;
+}
+
+.btnAdd:hover {
+    color:#CCC;   
+}
+
+.lblPrice {
+    margin-right: 30px;
+    font-size: 23px;
+}
+
+.added {
+    opacity: 0;
+    display: block;
+}
+
+.show {
+    font-size: 14px;
+    padding-top: 5px;
+    color: red;
+    opacity: 1;
+    display: block;
+}
